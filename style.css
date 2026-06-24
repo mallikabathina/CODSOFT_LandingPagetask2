@@ -1,0 +1,112 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+header{
+background:#1e293b;
+color:white;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px 50px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:20px;
+}
+
+.hero{
+display:flex;
+justify-content:space-around;
+align-items:center;
+padding:80px 50px;
+background:linear-gradient(to right,#2563eb,#7c3aed);
+color:white;
+}
+
+.hero-image img{
+width:350px;
+}
+
+button{
+padding:12px 25px;
+border:none;
+border-radius:8px;
+font-size:16px;
+cursor:pointer;
+}
+
+.features{
+background:#f8fafc;
+padding:60px;
+text-align:center;
+}
+
+.courses{
+background:#eef2ff;
+padding:60px;
+text-align:center;
+}
+
+.contact{
+background:#f0fdf4;
+padding:60px;
+text-align:center;
+}
+
+.feature-container{
+display:flex;
+justify-content:center;
+gap:25px;
+margin-top:30px;
+flex-wrap:wrap;
+}
+
+.card{
+width:250px;
+padding:20px;
+background:white;
+border-radius:12px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+.card img{
+    width:80px;
+    height:80px;
+    object-fit:contain;
+    margin-bottom:10px;
+}
+.contact-container{
+    display:flex;
+    justify-content:center;
+    gap:40px;
+    flex-wrap:wrap;
+    margin-top:20px;
+}#contact h2{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.contact-box{
+    text-align:center;
+    padding:15px;
+}
+.contact-box{
+    border-right:1px solid #ccc;
+    padding:0 30px;
+}
+
+.contact-box:last-child{
+    border-right:none;
+}
+
+footer{
+background:#1e293b;
+color:white;
+text-align:center;
+padding:15px;
+}
